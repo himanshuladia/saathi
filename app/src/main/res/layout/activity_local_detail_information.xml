@@ -78,7 +78,7 @@
                 android:layout_below="@+id/local_about_me"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:text="2/100"
+                android:text="2/5"
                 android:textColor="#fff"
                 android:textSize="16sp" />
 
