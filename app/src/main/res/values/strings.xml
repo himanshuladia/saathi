@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Saathi</string>
+    //Activity sign layout Strings
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_sign_in_button">Sign In</string>
+    <string name="login_no_account">Don\'t have an account ?</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="login_name_hint">Name</string>
+
+    //Login Actvity Strings
+    <string name="sign_in_enter_the_email">Enter the email</string>
+    <string name="sign_in_enter_the_password">Enter the password</string>
+    <string name="sign_in_login_successfully">Login In Successfully</string>
+    <string name="sign_in_login_failed">Login Failed</string>
+    <string name="sign_in_message_dialog">Login .....</string>
+    <string name="sign_in_enter_the_name">Enter the Name</string>
+    <string name="sign_up_message_dialog">Registering User .....</string>
+    <string name="sign_up_register_successful">Registerd Successful</string>
+    <string name="sign_up_registration_failed">Cannot Register</string>
+
+
+    //
+    <string name="village_progress_dialog">Loading</string>
+
+    //
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Destination</string>
+    <string name="slide_1_desc">Various amazing and exciting destinations to explore the flavour of Rajasthan!!!
+        Choose your destination spot.This will reflect the availability of all the locals,present in that area interested to serve the differently abled.
+    </string>
+
+    <string name="slide_2_title">Beat the Disability</string>
+    <string name="slide_2_desc">You are no less than others,avail a marvelous trip to your favourite destination.Mark out your disability and basic needs to select corresponding service providing locals.</string>
+
+    <string name="slide_3_title">You are on!!!</string>
+    <string name="slide_3_desc">Well then,waiting for what?
+    Look out for a suitable itinerary and cost...Register and book your local service provider.
+    Enjoy your trip!!!</string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
