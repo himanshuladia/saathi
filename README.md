@@ -1,10 +1,4 @@
-Presenting to you
-“SAATHI”
-ByHimanshu
-Ladia
-Siddharth Singh
-Shivansh Mishra
-Aditya Pandey
+# Saathi
 
 We are creating a platform to offer social
 concierge services for the differently abled
@@ -12,42 +6,52 @@ world travellers delivered by local people.
 On our platform you can find a localite ,
 who is delighted to support and enrich
 your travel experience locally.
+
+
 Well, we would execute our platform for both
 the user types, i.e.
-➢The locals :-
-➢Who want to support the cause
-➢Would have their own guide account
+
+## The locals :-
+
+Who want to support the cause
+Would have their own guide account
 on the app.
-And …
-➢The tourists (differently abled) :-
-➢Who aspire to visit a place in
+
+## The tourists (differently abled) :-
+
+1. Who aspire to visit a place in
 Rajasthan.
-➢Need to register and check
+2. Need to register and check
 availability of such locals at the place.
-The marking features of our app would be as
-follows :-
-➢Basic itinerary corresponding to each local.
-➢Minimal cost per hour at which the locals
+
+## Features
+
+1. Basic itinerary corresponding to each local.
+2. Minimal cost per hour at which the locals
 would serve.
-➢Ratings and reviews for each local from
+3. Ratings and reviews for each local from
 registered users.
-➢Booking of locals according to the disability
+4. Booking of locals according to the disability
 and the basic amenities and facilities they
 need.
-➢Booking of hotels and tourist cabs by the
+5. Booking of hotels and tourist cabs by the
 locals for the aspirers.
-To the locals :-
-➢Side Business and employment
-➢Guide recognisation and License.
-➢Self satisfaction of helping the needful.
-To the tourists(differently abled) :-
-➢Communication with local people who understand your
+
+## Benefits To the locals :-
+
+1. Side Business and employment
+2. Guide recognisation and License.
+3. Self satisfaction of helping the needful.
+
+## Benefits To the tourists (differently abled) :-
+
+1. Communication with local people who understand your
 language.
-➢Understanding of cross cultural, lifestyle differences and
+2. Understanding of cross cultural, lifestyle differences and
 business etiquette.
-➢Information about the local infrastructure, transport and
+3. Information about the local infrastructure, transport and
 timetable
-➢Personal safety abroad.
-➢To avoid Overpaying for everything: taxi, food, souvenirs,
+4. Personal safety abroad.
+5. To avoid Overpaying for everything: taxi, food, souvenirs,
 excursions, shopping, etc.
-➢Last but not the least, A feel of Welcome to Rajasthan.
+6. Last but not the least, A feel of Welcome to Rajasthan.
