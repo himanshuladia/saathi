@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.hackrajasthan.AmenitiesActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar_amenities"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/disable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool_bar_amenities"
+        android:layout_marginTop="20dp"
+        android:text="Disablity:"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_disable"
+        android:layout_below="@id/disable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/native_language"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_disable"
+        android:layout_marginTop="20dp"
+        android:text="Language:"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_language"
+        android:layout_below="@id/native_language"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Budget"
+        android:layout_below="@+id/spinner_language"/>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_below="@id/budget"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<City> searchingResult;
     private  String mCurrentCityUser;
     private City mSearchCity;
+    private android.support.v7.widget.Toolbar mToolBar;
     public HashMap<String,String> mcityFireBaseUiD;
 
     @Override
@@ -76,7 +77,9 @@ public class MainActivity extends AppCompatActivity {
         cityDisplayView=(ListView) findViewById(R.id.city_user_result_list);
         searchingResult=new ArrayList<>();
         informationCity=new ArrayList<>();
-
+        mToolBar=(android.support.v7.widget.Toolbar)findViewById(R.id.tool_bar_city);
+        setSupportActionBar(mToolBar);
+        getSupportActionBar().setTitle("Saathi");
         progressDialog=(ProgressDialog)new ProgressDialog(this);
 
 
@@ -128,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 mCurrentCityUser=mCurrentCity.getCityName();
-                Intent intent=new Intent(MainActivity.this,LocalUser.class);
+                Intent intent=new Intent(MainActivity.this,AmenitiesActivity.class);
                 String user_id=mcityFireBaseUiD.get(mCurrentCityUser);
                         intent.putExtra("currentUserid", user_id);
                         intent.putExtra("currentCity",mCurrentCityUser);

@@ -20,7 +20,8 @@
         <activity android:name=".Login.SignUpActivity" />
         <activity android:name=".UserCity.LocalUser" />
         <activity android:name=".Intro.OnBoardingScreenActivity" />
-        <activity android:name=".LocalInformation.LocalDetailInformationActivity"></activity>
+        <activity android:name=".LocalInformation.LocalDetailInformationActivity" />
+        <activity android:name=".AmenitiesActivity"></activity>
     </application>
 
 </manifest>
