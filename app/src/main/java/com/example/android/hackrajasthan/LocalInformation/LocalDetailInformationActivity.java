@@ -37,7 +37,6 @@ public class LocalDetailInformationActivity extends AppCompatActivity {
     private String mCurrentuid;
     private ProgressDialog progressDialog;
     private DatabaseReference mCityLocalDatabase;
-    private HashMap<String,String> mNameUid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,11 +55,10 @@ public class LocalDetailInformationActivity extends AppCompatActivity {
         gender=(TextView)findViewById(R.id.local_gender);
         rating=(TextView)findViewById(R.id.local_rating);
         progressDialog=new ProgressDialog(this);
-        mCityLocalDatabase= FirebaseDatabase.getInstance().getReference().child("City").child(mCurrentuid).child("Local");
-        mNameUid=new HashMap<>();
         Intent intent=getIntent();
         mCurrentCity=intent.getStringExtra("currentCity");
         mCurrentuid=intent.getStringExtra("currentCityUid");
+        mCityLocalDatabase= FirebaseDatabase.getInstance().getReference().child("City").child(mCurrentuid).child("Local");
 
     }
 
@@ -76,12 +74,10 @@ public class LocalDetailInformationActivity extends AppCompatActivity {
                 for(DataSnapshot citySnapshot: dataSnapshot.getChildren())
                 {
 
-                    String currentUiD=citySnapshot.getKey().toString();
-                    String nameLocal= citySnapshot.child("Name").getValue().toString();
-                    mNameUid.put(nameLocal,currentUiD);
-                    String aboutMe=citySnapshot.child("About").getValue().toString();
-                    String ImageUrl=citySnapshot.child("ImageUrl").getValue().toString();
-                    City mTemporaryCity=new City(nameLocal,aboutMe,ImageUrl);
+
+                    //String aboutMe=citySnapshot.child("About").getValue().toString();
+                    //String ImageUrl=citySnapshot.child("ImageUrl").getValue().toString();
+
 
 
                 }
